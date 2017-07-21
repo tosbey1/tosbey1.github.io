@@ -1,0 +1,56 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+.taylor_info{
+	display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #8fdaaf;
+  color: white;
+  max-width: 1200px;
+}
+.navigation {
+	background-color: #8fdaaf;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.about_me {
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  max-width: 1200px;
+  align-content: center;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.about_me-title {
+	font-size: 50px;
+}
+.portfolio {   
+ 	max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin: 0 auto;
+}
+.portfolio-title {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.my_face-img {
+	width: 200px;
+	border-radius: 50%;
+}
+.portfolio-item img{
+	width: 500px;
+	margin-bottom: 20px; 
+}
