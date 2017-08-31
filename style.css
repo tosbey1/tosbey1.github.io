@@ -50,6 +50,9 @@ body {
 	width: 200px;
 	border-radius: 50%;
 }
+#main {
+	padding: 20px;
+}
 .portfolio-item img{
 	width: 500px;
 	margin-bottom: 20px; 

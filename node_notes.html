@@ -1,0 +1,10 @@
+Async & Sync Ex:
+Sync:
+// console.log(fs.readFileSync(process.argv[2],'utf8').split("\n").length -1);
+
+Async:
+fs.readFile(process.argv[2],'utf8', function finishedReading(error, result) {
+  console.log(result.split("\n").length -1);
+});
+
+fs.readdir = reads contents of directory
